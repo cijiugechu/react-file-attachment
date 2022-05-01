@@ -1,6 +1,15 @@
 {
   "name": "react-file-attachment",
   "private": false,
+  "description": "React bindings for @github/file-attachment-element",
+	"author": "nemurubaka",
+  "keywords": [
+		"react",
+		"component",
+		"file",
+		"attachment",
+    "bindings"
+	],
   "main": "pkg_dist/index.js",
   "module": "pkg_dist/index.mjs",
   "typings": "pkg_dist/index.d.ts",
@@ -13,7 +22,8 @@
     "url": "git@github.com:cijiugechu/react-file-attachment.git"
   },
   "bugs": "https://github.com/cijiugechu/react-file-attachment/issues",
-  "version": "0.0.0",
+  "license": "MIT",
+  "version": "0.0.1",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",

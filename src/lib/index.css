@@ -1,0 +1,10 @@
+file-attachment {
+	display: block;
+	text-align: center;
+	border: 4px dashed lightgrey;
+	padding: 100px;
+	font-family: sans-serif;
+}
+file-attachment[hover] {
+	border-color: gold;
+}

@@ -3,6 +3,9 @@ import type Attachment from "@github/file-attachment-element/dist/attachment"
 import { CSSProperties, ReactNode, useEffect, useState } from "react"
 import "./index.css"
 
+type FileAcceptEvent = CustomEvent<AcceptEventDetail>
+type FileAcceptedEvent = CustomEvent<AcceptedEventDetail>
+
 interface FileAttachmentProps {
 	enableDir?: boolean
 	enableMultiple?: boolean
@@ -103,5 +106,7 @@ function FileAttachment(props: FileAttachmentProps) {
 		</file-attachment>
 	)
 }
+
+export type { FileAcceptEvent, FileAcceptedEvent }
 
 export default FileAttachment

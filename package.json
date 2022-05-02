@@ -23,7 +23,7 @@
   },
   "bugs": "https://github.com/cijiugechu/react-file-attachment/issues",
   "license": "MIT",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
